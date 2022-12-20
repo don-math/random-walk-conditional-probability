@@ -7,7 +7,7 @@ In this notebook, I will show a trick of using NumPy to solve a classical condit
 My Physics PhD friend mentioned this question to me as his interview question at Renaissance (a top quantitative trading company). I was interested by it and came up with the following trick. Since I never see others using this trick, I feel I have the responsibility to share it on GitHub so that it could also benefit others.
 
 
-The same technique can be adapted with solve many other time-series conditional probability questions. The general steps are:
+The same technique can be adapted to solve many other time-series conditional probability questions. The general steps are:
 
 - Create a large number of independent simulations.
 - Within each simulation, mark the first time step (and afterward) that the condition #1 is satisfied as 'True'. We get a vector A of 'True's and 'False's.
